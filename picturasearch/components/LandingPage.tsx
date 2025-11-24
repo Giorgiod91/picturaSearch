@@ -17,6 +17,7 @@ export default function LandingPage({}: Props) {
           </button>
         </div>
         <div className="flex w-2/2">
+          <video className="border border-white rounded-2xl" src=""></video>
           <h1 className="text-7xl text-white"></h1>
         </div>
       </div>
