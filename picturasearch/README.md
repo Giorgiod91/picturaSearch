@@ -1,4 +1,7 @@
 # Upload an image → App finds matching items on eBay
+# current progress
+<img width="1479" height="990" alt="image" src="https://github.com/user-attachments/assets/25e256ee-65bb-405e-8092-6071836414d6" />
+
 
 # will use an ML image classifier
 
