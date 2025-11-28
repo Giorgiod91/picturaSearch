@@ -14,13 +14,17 @@ export default function Navbar({}: Props) {
         <div>
           <div className="flex justify-end space-x-10  ">
             <div className="border-transparent  h-[68px] hover:border pt-2  hover:border-b-[#9fef00]">
-              <a className="hover:text-[#9fef00] text-[#a4b1cd]  ">Pricing</a>
+              <a className="hover:text-[#9fef00] text-[#a4b1cd] cursor-pointer ">
+                Pricing
+              </a>
             </div>
 
             <div className="border-transparent  h-[68px] hover:border pt-2 hover:border-b-[#9fef00]">
-              <a className="hover:text-[#9fef00] text-[#a4b1cd] ">Login</a>
+              <a className="hover:text-[#9fef00] text-[#a4b1cd] cursor-pointer ">
+                Login
+              </a>
             </div>
-            <button className="bg-[#9fef00] p-2 w-40 h-[50px] rounded-xl cursor-pointer ">
+            <button className="bg-[#9fef00] hover:border-2 hover:border-black hover:bg-[#a4c75e] p-2 w-40 h-[50px] rounded-xl cursor-pointer ">
               Get Started
             </button>
           </div>
