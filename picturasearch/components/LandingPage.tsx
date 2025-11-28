@@ -4,8 +4,8 @@ type Props = {};
 
 export default function LandingPage({}: Props) {
   return (
-    <div className="flex flex-col max-w-7xl">
-      <div className="flex items-center md:flex-row flex-col space-y-5 space-x-4 mt-60">
+    <div className="flex  flex-col max-w-7xl">
+      <div className="flex items-center md:flex-row flex-col space-y-5 space-x-20 mt-60">
         <div className="flex w-1/2 flex-col ">
           <h1 className="text-7xl p-2 text-white">picturaSearch</h1>
           <p className="text-white p-2">
