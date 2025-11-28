@@ -1,5 +1,6 @@
 import LandingPage from "@/components/LandingPage";
 import Navbar from "@/components/Navbar";
+import Showcase from "@/components/Showcase";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,6 +9,8 @@ export default function Home() {
       <main className="flex min-h-screen w-full flex-col items-center ">
         <Navbar />
         <LandingPage />
+
+        <Showcase />
       </main>
     </div>
   );
